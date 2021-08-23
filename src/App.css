@@ -1,0 +1,36 @@
+*{
+font-family:monospace
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto ;
+  grid-gap: 10px;
+  border-radius: 20px;
+}
+
+.grid-container > div {
+  width: auto;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
+.table1 {
+  color: aqua;
+  background-color: blue;
+}
+.chat-popup {
+  position: fixed;
+  bottom: 0;
+  padding: 15px 15px;
+  right: 15px;
+ 
+}
